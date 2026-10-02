@@ -1,0 +1,19 @@
+{
+  "version": "M4",
+  "description": "Selected two-stage model with road and ground hard negatives",
+  "architecture": "unet",
+  "task": "two_stage_hard_negative",
+  "sample_limit": 248,
+  "image_size": 512,
+  "batch_size": 4,
+  "epochs": 100,
+  "patience": 20,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.00001,
+  "stages": {
+    "building": {"class_weights": [1.0, 1.0, 8.0]},
+    "opening": {"class_weights": [1.0, 2.0]}
+  },
+  "seed": 42
+}
+

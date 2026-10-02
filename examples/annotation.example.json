@@ -1,0 +1,28 @@
+{
+  "imagePath": "synthetic-facade.png",
+  "imageHeight": 512,
+  "imageWidth": 512,
+  "shapes": [
+    {
+      "label": "building",
+      "points": [[80, 100], [430, 100], [430, 450], [80, 450]],
+      "shape_type": "polygon"
+    },
+    {
+      "label": "window",
+      "points": [[130, 160], [210, 160], [210, 250], [130, 250]],
+      "shape_type": "polygon"
+    },
+    {
+      "label": "door",
+      "points": [[300, 300], [370, 300], [370, 450], [300, 450]],
+      "shape_type": "polygon"
+    },
+    {
+      "label": "road",
+      "points": [[0, 450], [512, 450], [512, 512], [0, 512]],
+      "shape_type": "polygon"
+    }
+  ]
+}
+
